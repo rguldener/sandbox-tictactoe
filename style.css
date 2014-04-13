@@ -1,0 +1,63 @@
+
+html {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#score-1, #score-2 {
+    color: #000;
+    font-size: 30px;
+}
+
+.scoreboard {
+    width: 800px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player {
+    color: gray;
+    font-size: 20px;
+}
+
+.tic-tac-toe {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 600px;
+    cursor: pointer;
+}
+
+.tic-tac-toe td {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+table td, table th {
+    border: 1px solid black;
+}
+table tr:first-child td {
+    border-top: 0;
+}
+table tr:last-child td {
+    border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
+}
